@@ -1,7 +1,7 @@
 ﻿
 namespace Futbol_Maç_Tahmin_Sistemi
 {
-    partial class Tahmin_Yap
+    partial class Make_Prediction
     {
         /// <summary>
         /// Required designer variable.
@@ -36,14 +36,14 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.ev_sahibi_kazanir = new System.Windows.Forms.Label();
-            this.berabere = new System.Windows.Forms.Label();
-            this.deplasman = new System.Windows.Forms.Label();
-            this.toplam_gol = new System.Windows.Forms.Label();
-            this.karsılıklı_gol = new System.Windows.Forms.Label();
+            this.first_team = new System.Windows.Forms.Label();
+            this.draw = new System.Windows.Forms.Label();
+            this.second_team = new System.Windows.Forms.Label();
+            this.total_goal = new System.Windows.Forms.Label();
+            this.mutual_goal = new System.Windows.Forms.Label();
             this.korner = new System.Windows.Forms.Label();
-            this.Takim1 = new System.Windows.Forms.Label();
-            this.Takim2 = new System.Windows.Forms.Label();
+            this.Team1 = new System.Windows.Forms.Label();
+            this.Team2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -52,9 +52,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(224, 213);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 24);
+            this.label1.Size = new System.Drawing.Size(178, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Deplasman Kazanır :";
+            this.label1.Text = "Second Team Win:";
             // 
             // label2
             // 
@@ -62,9 +62,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label2.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(224, 247);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(190, 24);
+            this.label2.Size = new System.Drawing.Size(109, 24);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Toplam Gol Aralığı :";
+            this.label2.Text = "Total Goal:";
             // 
             // label3
             // 
@@ -82,9 +82,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label4.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(224, 284);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(135, 24);
+            this.label4.Size = new System.Drawing.Size(129, 24);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Karşılıklı gol :";
+            this.label4.Text = "Mutual Goal:";
             // 
             // label5
             // 
@@ -92,9 +92,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label5.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(222, 34);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(241, 32);
+            this.label5.Size = new System.Drawing.Size(278, 32);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Tahmin Sistemi";
+            this.label5.Text = "Prediction System";
             // 
             // label6
             // 
@@ -102,9 +102,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label6.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(224, 180);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 24);
+            this.label6.Size = new System.Drawing.Size(64, 24);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Berabere :";
+            this.label6.Text = "Draw:";
             // 
             // label7
             // 
@@ -112,59 +112,59 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label7.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(224, 144);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(179, 24);
+            this.label7.Size = new System.Drawing.Size(156, 24);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Ev Sahibi Kazanır :";
+            this.label7.Text = "First Team Win:";
             // 
-            // ev_sahibi_kazanir
+            // first_team
             // 
-            this.ev_sahibi_kazanir.AutoSize = true;
-            this.ev_sahibi_kazanir.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ev_sahibi_kazanir.Location = new System.Drawing.Point(455, 144);
-            this.ev_sahibi_kazanir.Name = "ev_sahibi_kazanir";
-            this.ev_sahibi_kazanir.Size = new System.Drawing.Size(49, 24);
-            this.ev_sahibi_kazanir.TabIndex = 7;
-            this.ev_sahibi_kazanir.Text = "Null";
+            this.first_team.AutoSize = true;
+            this.first_team.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.first_team.Location = new System.Drawing.Point(455, 144);
+            this.first_team.Name = "first_team";
+            this.first_team.Size = new System.Drawing.Size(49, 24);
+            this.first_team.TabIndex = 7;
+            this.first_team.Text = "Null";
             // 
-            // berabere
+            // draw
             // 
-            this.berabere.AutoSize = true;
-            this.berabere.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.berabere.Location = new System.Drawing.Point(455, 180);
-            this.berabere.Name = "berabere";
-            this.berabere.Size = new System.Drawing.Size(49, 24);
-            this.berabere.TabIndex = 8;
-            this.berabere.Text = "Null";
+            this.draw.AutoSize = true;
+            this.draw.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.draw.Location = new System.Drawing.Point(455, 180);
+            this.draw.Name = "draw";
+            this.draw.Size = new System.Drawing.Size(49, 24);
+            this.draw.TabIndex = 8;
+            this.draw.Text = "Null";
             // 
-            // deplasman
+            // second_team
             // 
-            this.deplasman.AutoSize = true;
-            this.deplasman.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.deplasman.Location = new System.Drawing.Point(455, 213);
-            this.deplasman.Name = "deplasman";
-            this.deplasman.Size = new System.Drawing.Size(49, 24);
-            this.deplasman.TabIndex = 9;
-            this.deplasman.Text = "Null";
+            this.second_team.AutoSize = true;
+            this.second_team.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.second_team.Location = new System.Drawing.Point(455, 213);
+            this.second_team.Name = "second_team";
+            this.second_team.Size = new System.Drawing.Size(49, 24);
+            this.second_team.TabIndex = 9;
+            this.second_team.Text = "Null";
             // 
-            // toplam_gol
+            // total_goal
             // 
-            this.toplam_gol.AutoSize = true;
-            this.toplam_gol.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.toplam_gol.Location = new System.Drawing.Point(455, 251);
-            this.toplam_gol.Name = "toplam_gol";
-            this.toplam_gol.Size = new System.Drawing.Size(49, 24);
-            this.toplam_gol.TabIndex = 10;
-            this.toplam_gol.Text = "Null";
+            this.total_goal.AutoSize = true;
+            this.total_goal.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.total_goal.Location = new System.Drawing.Point(455, 251);
+            this.total_goal.Name = "total_goal";
+            this.total_goal.Size = new System.Drawing.Size(49, 24);
+            this.total_goal.TabIndex = 10;
+            this.total_goal.Text = "Null";
             // 
-            // karsılıklı_gol
+            // mutual_goal
             // 
-            this.karsılıklı_gol.AutoSize = true;
-            this.karsılıklı_gol.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.karsılıklı_gol.Location = new System.Drawing.Point(455, 284);
-            this.karsılıklı_gol.Name = "karsılıklı_gol";
-            this.karsılıklı_gol.Size = new System.Drawing.Size(49, 24);
-            this.karsılıklı_gol.TabIndex = 11;
-            this.karsılıklı_gol.Text = "Null";
+            this.mutual_goal.AutoSize = true;
+            this.mutual_goal.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.mutual_goal.Location = new System.Drawing.Point(455, 284);
+            this.mutual_goal.Name = "mutual_goal";
+            this.mutual_goal.Size = new System.Drawing.Size(49, 24);
+            this.mutual_goal.TabIndex = 11;
+            this.mutual_goal.Text = "Null";
             // 
             // korner
             // 
@@ -176,40 +176,40 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.korner.TabIndex = 12;
             this.korner.Text = "Null";
             // 
-            // Takim1
+            // Team1
             // 
-            this.Takim1.AutoSize = true;
-            this.Takim1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Takim1.Location = new System.Drawing.Point(120, 88);
-            this.Takim1.Name = "Takim1";
-            this.Takim1.Size = new System.Drawing.Size(76, 24);
-            this.Takim1.TabIndex = 13;
-            this.Takim1.Text = "Takim1";
+            this.Team1.AutoSize = true;
+            this.Team1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Team1.Location = new System.Drawing.Point(120, 88);
+            this.Team1.Name = "Team1";
+            this.Team1.Size = new System.Drawing.Size(107, 24);
+            this.Team1.TabIndex = 13;
+            this.Team1.Text = "First Team";
             // 
-            // Takim2
+            // Team2
             // 
-            this.Takim2.AutoSize = true;
-            this.Takim2.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Takim2.Location = new System.Drawing.Point(554, 88);
-            this.Takim2.Name = "Takim2";
-            this.Takim2.Size = new System.Drawing.Size(78, 24);
-            this.Takim2.TabIndex = 14;
-            this.Takim2.Text = "Takim2";
+            this.Team2.AutoSize = true;
+            this.Team2.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Team2.Location = new System.Drawing.Point(554, 88);
+            this.Team2.Name = "Team2";
+            this.Team2.Size = new System.Drawing.Size(129, 24);
+            this.Team2.TabIndex = 14;
+            this.Team2.Text = "Second Team";
             // 
-            // Tahmin_Yap
+            // Make_Prediction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(885, 509);
-            this.Controls.Add(this.Takim2);
-            this.Controls.Add(this.Takim1);
+            this.Controls.Add(this.Team2);
+            this.Controls.Add(this.Team1);
             this.Controls.Add(this.korner);
-            this.Controls.Add(this.karsılıklı_gol);
-            this.Controls.Add(this.toplam_gol);
-            this.Controls.Add(this.deplasman);
-            this.Controls.Add(this.berabere);
-            this.Controls.Add(this.ev_sahibi_kazanir);
+            this.Controls.Add(this.mutual_goal);
+            this.Controls.Add(this.total_goal);
+            this.Controls.Add(this.second_team);
+            this.Controls.Add(this.draw);
+            this.Controls.Add(this.first_team);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -217,7 +217,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Tahmin_Yap";
+            this.Name = "Make_Prediction";
             this.Text = "Tahmin_Yap";
             this.Load += new System.EventHandler(this.Tahmin_Yap_Load);
             this.ResumeLayout(false);
@@ -234,13 +234,13 @@ namespace Futbol_Maç_Tahmin_Sistemi
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label ev_sahibi_kazanir;
-        private System.Windows.Forms.Label berabere;
-        private System.Windows.Forms.Label deplasman;
-        private System.Windows.Forms.Label toplam_gol;
-        private System.Windows.Forms.Label karsılıklı_gol;
+        private System.Windows.Forms.Label first_team;
+        private System.Windows.Forms.Label draw;
+        private System.Windows.Forms.Label second_team;
+        private System.Windows.Forms.Label total_goal;
+        private System.Windows.Forms.Label mutual_goal;
         private System.Windows.Forms.Label korner;
-        private System.Windows.Forms.Label Takim1;
-        private System.Windows.Forms.Label Takim2;
+        private System.Windows.Forms.Label Team1;
+        private System.Windows.Forms.Label Team2;
     }
 }

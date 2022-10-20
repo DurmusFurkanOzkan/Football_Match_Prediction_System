@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace Futbol_Maç_Tahmin_Sistemi
 {
-    public partial class Takim_Bilgileri : Form
+    public partial class Team_Information : Form
     {
-        public Takim_Bilgileri()
+        public Team_Information()
         {
             InitializeComponent();
         }

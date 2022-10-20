@@ -140,7 +140,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.groupBox1.Size = new System.Drawing.Size(779, 659);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Maç Ekle";
+            this.groupBox1.Text = "Add Match";
             // 
             // button1
             // 
@@ -148,7 +148,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(159, 51);
             this.button1.TabIndex = 42;
-            this.button1.Text = "Maç Ekle";
+            this.button1.Text = "Add Match";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -306,9 +306,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label21.Location = new System.Drawing.Point(247, 533);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(98, 24);
+            this.label21.Size = new System.Drawing.Size(84, 24);
             this.label21.TabIndex = 20;
-            this.label21.Text = "Kazanan :";
+            this.label21.Text = "Winner:";
             // 
             // label20
             // 
@@ -317,9 +317,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label20.Location = new System.Drawing.Point(428, 468);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(79, 24);
+            this.label20.Size = new System.Drawing.Size(81, 24);
             this.label20.TabIndex = 19;
-            this.label20.Text = "Ofsayt :";
+            this.label20.Text = "Offside:";
             // 
             // label19
             // 
@@ -328,9 +328,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label19.Location = new System.Drawing.Point(32, 466);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(79, 24);
+            this.label19.Size = new System.Drawing.Size(81, 24);
             this.label19.TabIndex = 18;
-            this.label19.Text = "Ofsayt :";
+            this.label19.Text = "Offside:";
             // 
             // label18
             // 
@@ -361,9 +361,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label16.Location = new System.Drawing.Point(432, 357);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(61, 24);
+            this.label16.Size = new System.Drawing.Size(79, 24);
             this.label16.TabIndex = 15;
-            this.label16.Text = "Orta :";
+            this.label16.Text = "Middle:";
             // 
             // label15
             // 
@@ -372,9 +372,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label15.Location = new System.Drawing.Point(31, 355);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(61, 24);
+            this.label15.Size = new System.Drawing.Size(79, 24);
             this.label15.TabIndex = 14;
-            this.label15.Text = "Orta :";
+            this.label15.Text = "Middle:";
             // 
             // label14
             // 
@@ -405,9 +405,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label12.Location = new System.Drawing.Point(432, 256);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(113, 24);
+            this.label12.Size = new System.Drawing.Size(56, 24);
             this.label12.TabIndex = 11;
-            this.label12.Text = "Pas Başarı :";
+            this.label12.Text = "Pass:";
             // 
             // label11
             // 
@@ -416,9 +416,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label11.Location = new System.Drawing.Point(31, 254);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(113, 24);
+            this.label11.Size = new System.Drawing.Size(56, 24);
             this.label11.TabIndex = 10;
-            this.label11.Text = "Pas Başarı :";
+            this.label11.Text = "Pass:";
             // 
             // label10
             // 
@@ -427,9 +427,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label10.Location = new System.Drawing.Point(430, 207);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(123, 24);
+            this.label10.Size = new System.Drawing.Size(147, 24);
             this.label10.TabIndex = 9;
-            this.label10.Text = "İsabetli Şut :";
+            this.label10.Text = "Shot on Target:";
             // 
             // label9
             // 
@@ -438,9 +438,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label9.Location = new System.Drawing.Point(29, 205);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 24);
+            this.label9.Size = new System.Drawing.Size(147, 24);
             this.label9.TabIndex = 8;
-            this.label9.Text = "İsabetli Şut :";
+            this.label9.Text = "Shot on Target:";
             // 
             // label8
             // 
@@ -449,9 +449,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label8.Location = new System.Drawing.Point(430, 159);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 24);
+            this.label8.Size = new System.Drawing.Size(108, 24);
             this.label8.TabIndex = 7;
-            this.label8.Text = "Toplam Şut :";
+            this.label8.Text = "Total Shot:";
             // 
             // label7
             // 
@@ -460,9 +460,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label7.Location = new System.Drawing.Point(26, 157);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 24);
+            this.label7.Size = new System.Drawing.Size(113, 24);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Toplam Şut :";
+            this.label7.Text = "Total Shot :";
             // 
             // label6
             // 
@@ -471,9 +471,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label6.Location = new System.Drawing.Point(432, 112);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 24);
+            this.label6.Size = new System.Drawing.Size(109, 24);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Topla Oynama :";
+            this.label6.Text = "Ball Game:";
             // 
             // label5
             // 
@@ -482,9 +482,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label5.Location = new System.Drawing.Point(26, 110);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(151, 24);
+            this.label5.Size = new System.Drawing.Size(114, 24);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Topla Oynama :";
+            this.label5.Text = "Ball Game :";
             // 
             // label4
             // 
@@ -493,9 +493,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label4.Location = new System.Drawing.Point(431, 70);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(110, 24);
+            this.label4.Size = new System.Drawing.Size(109, 24);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Gol Sayısı :";
+            this.label4.Text = "Total Goal:";
             // 
             // label3
             // 
@@ -504,9 +504,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label3.Location = new System.Drawing.Point(26, 68);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 24);
+            this.label3.Size = new System.Drawing.Size(114, 24);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Gol Sayısı :";
+            this.label3.Text = "Total Goal :";
             // 
             // label2
             // 
@@ -517,7 +517,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(135, 24);
             this.label2.TabIndex = 1;
-            this.label2.Text = "İkinci Takım :";
+            this.label2.Text = "Second Team:";
             // 
             // label1
             // 
@@ -526,9 +526,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label1.Location = new System.Drawing.Point(25, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 24);
+            this.label1.Size = new System.Drawing.Size(123, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "İlk Takım  :";
+            this.label1.Text = "First Team  :";
             // 
             // groupBox2
             // 
@@ -542,7 +542,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.groupBox2.Size = new System.Drawing.Size(294, 197);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tahmin Yap";
+            this.groupBox2.Text = "Make a Prediction";
             // 
             // button2
             // 
@@ -550,7 +550,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 55);
             this.button2.TabIndex = 46;
-            this.button2.Text = "Tahmin Yap";
+            this.button2.Text = "Make a Prediction";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -570,7 +570,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(113, 24);
             this.label23.TabIndex = 42;
-            this.label23.Text = "İlk Takım  :";
+            this.label23.Text = "First Team:";
             // 
             // label22
             // 
@@ -581,7 +581,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(135, 24);
             this.label22.TabIndex = 43;
-            this.label22.Text = "İkinci Takım :";
+            this.label22.Text = "Second Team:";
             // 
             // ilk_takim_tahmin
             // 
@@ -600,15 +600,15 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.groupBox3.Size = new System.Drawing.Size(286, 177);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Takım Bilgileri";
+            this.groupBox3.Text = "Team Information";
             // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(90, 99);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 41);
+            this.button3.Size = new System.Drawing.Size(147, 41);
             this.button3.TabIndex = 48;
-            this.button3.Text = "Takim Bilgileri";
+            this.button3.Text = "Team Information";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -625,9 +625,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label24.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label24.Location = new System.Drawing.Point(0, 38);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(140, 24);
+            this.label24.Size = new System.Drawing.Size(126, 24);
             this.label24.TabIndex = 0;
-            this.label24.Text = "Takım Giriniz:";
+            this.label24.Text = "Enter  Team:";
             // 
             // label25
             // 
@@ -635,9 +635,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
             this.label25.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label25.Location = new System.Drawing.Point(396, 29);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(343, 32);
+            this.label25.Size = new System.Drawing.Size(406, 32);
             this.label25.TabIndex = 3;
-            this.label25.Text = "Futbol Tahmin Sistemi";
+            this.label25.Text = "Football Prediction System";
             // 
             // Form1
             // 

@@ -74,7 +74,7 @@ namespace Futbol_Maç_Tahmin_Sistemi
 
         private void button3_Click(object sender, EventArgs e)
         {   
-            Takim_Bilgileri tb = new Takim_Bilgileri();
+            Team_Information tb = new Team_Information();
             tb.takim_ismi = takim_ismi.Text;
             tb.Show();
             
@@ -82,9 +82,9 @@ namespace Futbol_Maç_Tahmin_Sistemi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Tahmin_Yap ty = new Tahmin_Yap();
-            ty.takim_1 = ilk_takim_tahmin.Text;
-            ty.takim_2 = ikinci_takim_tahmin.Text;
+            Make_Prediction ty = new Make_Prediction();
+            ty.team_1 = ilk_takim_tahmin.Text;
+            ty.team_2 = ikinci_takim_tahmin.Text;
             ty.Show();
         }
     }

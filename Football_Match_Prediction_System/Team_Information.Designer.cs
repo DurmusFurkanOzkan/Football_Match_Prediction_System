@@ -1,7 +1,7 @@
 ﻿
 namespace Futbol_Maç_Tahmin_Sistemi
 {
-    partial class Takim_Bilgileri
+    partial class Team_Information
     {
         /// <summary>
         /// Required designer variable.
